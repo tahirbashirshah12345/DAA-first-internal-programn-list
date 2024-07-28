@@ -6,12 +6,17 @@ public class merge {
 
         System.out.println("Original Array:");
         System.out.println(Arrays.toString(arr));
+
         long start=System.nanoTime();
+
         mergeSort(arr);
+
         long end=System.nanoTime();
 
         System.out.println("\nSorted Array:");
+
         System.out.println(Arrays.toString(arr));
+        
         System.out.println("Time taken by merge sort: "+(end-start)+" nanoseconds");
     }
 
